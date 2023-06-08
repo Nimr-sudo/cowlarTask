@@ -20,7 +20,7 @@ class NavPage extends StatelessWidget {
       child: Stack(alignment: AlignmentDirectional.bottomCenter, children: [
         Obx(
               () =>
-              /////INDEX
+
               IndexedStack(
                 index: controller.selectedIndex.value,
                 children: screens,
